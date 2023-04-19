@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{7b3ef7c6-4423-4c8c-8da7-3150d01619c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\exceptions">
+      <UniqueIdentifier>{a40113f2-974b-4fe6-9c10-0f1d12d4cfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{84709543-5a40-4890-8851-68a480580b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{ee0705a1-d45b-48cc-853e-2f411e6c4c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vshacks">
+      <UniqueIdentifier>{faad686f-fc0d-438d-8356-ba5c7c50256f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\headers">
+      <UniqueIdentifier>{9900e616-7951-4b4f-a70e-dd8dbcc34eac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="edk2_vars.c">
+      <Filter>vshacks</Filter>
+    </ClCompile>
+    <ClCompile Include="exc_common.cpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exc_dispatch.cpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="fh4.cpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="type_info.cpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_support.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="efi_stub.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="fh3.cpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsf.c">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="delete_constructors.hpp">
+      <Filter>tools</Filter>
+    </None>
+    <None Include="drvproto.h">
+      <Filter>core\headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="efi_stub.hpp">
+      <Filter>cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="uefi.hpp">
+      <Filter>cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp_support.hpp">
+      <Filter>cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="type_info.hpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exc_common.hpp">
+      <Filter>cpp\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_manager.hpp">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsf.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enum_to_str.hpp">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="throw_exception.asm">
+      <Filter>cpp\exceptions</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
