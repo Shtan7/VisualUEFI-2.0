@@ -26,10 +26,6 @@ extern "C" const UINT32 _gUefiDriverRevision = 0;
 
 // Our name
 extern "C" CHAR8 * gEfiCallerBaseName = const_cast<CHAR8*>("UEFI template app");
-static EFI_EVENT exit_boot_services_event = {};
-static EFI_EVENT virtual_notify_event = {};
-extern "C" EFI_GUID gEfiEventExitBootServicesGuid;
-extern "C" EFI_GUID gEfiEventVirtualAddressChangeGuid;
 
 extern "C" EFI_STATUS EFIAPI UefiUnload(IN EFI_HANDLE ImageHandle)
 {

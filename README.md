@@ -4,6 +4,12 @@ This is VisualUEFI like project, but configurated to use Clang compiler and emit
 It gives you a possibility to debug your UEFI applications in source level on Windows using Vmware Workstation and
 GDB.
 
+## Installation
+
+Install nasm https://www.nasm.us/ and add ```NASM\``` folder to PATH variable, install Clang 
+https://learn.microsoft.com/en-us/cpp/build/clang-support-msbuild?view=msvc-170#install-1 and build ```edk2 libs```
+project. At this point you are ready to build the main project in ```samples``` folder.
+
 ## Environment setting
 
 I will cover setting up and using Clion as a GDB frontend. This is the easiest and hassle-free option.
