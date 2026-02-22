@@ -159,9 +159,6 @@
     <ClCompile Include="..\..\edk2\MdePkg\Library\BaseLib\X86ReadIdtr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\edk2\MdePkg\Library\BaseLib\X86SpeculationBarrier.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\edk2\MdePkg\Library\BaseLib\X86Thunk.c">
       <Filter>Source Files</Filter>
     </ClCompile>
